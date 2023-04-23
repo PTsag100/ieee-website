@@ -11,7 +11,7 @@ function LandingPage() {
         id="myVideo"
         preload="auto"
       >
-        <source src="/glob3.mp4" type="video/mp4"></source>
+        <source src="/glob3 (1).mp4" type="video/mp4"></source>
       </video>
       <div className="landing-page-container">
         <div className="ieee-logo">
