@@ -1,0 +1,17 @@
+.papei-heading {
+  margin: var(--margin-xl) 0;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.greek-heading {
+  color: var(--secondary);
+  font-weight: normal;
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: var(--margin-xs);
+}
+.english-heading {
+  color: var(--secondary);
+}

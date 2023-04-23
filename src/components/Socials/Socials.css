@@ -1,0 +1,29 @@
+.socials-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--margin-md) 0;
+  background-color: var(--primary);
+  box-sizing: border-box;
+}
+.social-logo-container {
+  position: relative;
+  margin: 0 5%;
+  padding: 0;
+  font-size: 3rem;
+  color: var(--white);
+  /* width: 10%; */
+  display: flex;
+  justify-content: center;
+  transition: all 0.1s ease;
+}
+.social-logo-container:hover {
+  color: var(--secondary);
+}
+
+@media screen and (max-width: 340px) {
+  .social-logo-container {
+    font-size: 36px;
+  }
+}

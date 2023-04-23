@@ -1,0 +1,29 @@
+.join-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#002d51, #003e6f);
+  color: var(--white);
+  width: 400px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  background-color: var(--primary);
+  border-radius: 5px;
+  width: 30%;
+  height: 60px;
+  transform: translateY(-30px);
+}
+.join-card p {
+  padding: var(--margin-md);
+}
+.join-card:hover {
+  box-shadow: 0 5px 5px 0px black;
+  transform: translateY(-12px);
+}
