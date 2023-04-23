@@ -4,7 +4,13 @@ import "./LandingPage.css";
 function LandingPage() {
   return (
     <section className="landing-page">
-      <video autoPlay muted loop id="myVideo">
+      <video
+        autoPlay={true}
+        muted={true}
+        loop={true}
+        id="myVideo"
+        preload="auto"
+      >
         <source src="/glob3.mp4" type="video/mp4"></source>
       </video>
       <div className="landing-page-container">
