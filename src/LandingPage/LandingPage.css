@@ -29,7 +29,7 @@
   object-fit: cover;
   transform: rotate(135deg);
 } */
-.landing-page video {
+/* .landing-page video {
   width: 200%;
   left: -20%;
   top: -80%;
@@ -37,6 +37,13 @@
   height: 200vh;
   object-fit: cover;
   transform: rotate(-35deg);
+} */
+.landing-page video {
+  width: 140%;
+  position: absolute;
+  height: 100vh;
+  object-fit: cover;
+  left: 0;
 }
 .landing-page .landing-page-container {
   max-width: 600px;
