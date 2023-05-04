@@ -11,8 +11,9 @@ function LandingPage() {
         id="myVideo"
         preload="auto"
       >
-        <source src="/Untitled (1).mp4" type="video/mp4"></source>
+        <source src="/globetard.mp4" type="video/mp4"></source>
       </video>
+      <div className="blur"></div>
       <div className="landing-page-container">
         <div className="ieee-logo">
           <img src="/ieee mb white png.png" alt="IEEE Logo" />
@@ -22,8 +23,8 @@ function LandingPage() {
           </h1> */}
         </div>
         <h1>
-          Empowering the future through innovation. <br></br>Join IEEE Student
-          Branch today!
+          Empowering the future through innovation. Join IEEE Student Branch
+          today!
         </h1>
         <div className="button-container">
           <a href="#about-us">Μάθε Περισσότερα</a>

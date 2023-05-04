@@ -1,7 +1,8 @@
 #about-us {
   width: 100%;
-  min-height: 90vh;
-  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 1rem 0;
+  /* box-sizing: border-box; */
 }
 
 .about-us-body {
