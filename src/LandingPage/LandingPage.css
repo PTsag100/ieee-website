@@ -16,6 +16,7 @@
   background: linear-gradient(90deg, #000d36, #145eff);
   position: relative;
   overflow-y: hidden;
+  z-index: 1;
 
   /* -webkit-transform: scaleX(-1); */
   /* transform: scaleX(-1); */
@@ -24,6 +25,9 @@
 .landing-page h1 {
   color: white;
   padding: 1rem 0;
+}
+.landing-page-container {
+  z-index: 2;
 }
 
 /* .landing-page video {
@@ -122,6 +126,9 @@
 @media only screen and (max-width: 600px) {
   .landing-page {
     background-position: center;
+  }
+  .landing-page h1 {
+    text-align: center;
   }
   .ieee-logo {
     margin-top: 10vh;
