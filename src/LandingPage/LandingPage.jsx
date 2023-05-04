@@ -11,8 +11,9 @@ function LandingPage() {
         id="myVideo"
         preload="auto"
       >
-        <source src="/glob3.mp4" type="video/mp4"></source>
+        <source src="/globetard.mp4" type="video/mp4"></source>
       </video>
+      <div className="blur"></div>
       <div className="landing-page-container">
         <div className="ieee-logo">
           <img src="/ieee mb white png.png" alt="IEEE Logo" />
@@ -21,16 +22,10 @@ function LandingPage() {
             <span>I</span>EEE
           </h1> */}
         </div>
-        <p>
-          Το IEEE, ή το Ινστιτούτο Ηλεκτρολόγων και Ηλεκτρονικών Μηχανικών,
-          είναι ο μεγαλύτερος τεχνικός επαγγελματικός οργανισμός στον κόσμο
-          αφιερωμένος στην πρόοδο της τεχνολογίας προς όφελος της ανθρωπότητας.{" "}
-        </p>
-        <p>
-          Η συμμετοχή στο IEEE προσφέρει πολλά οφέλη, όπως πρόσβαση σε έρευνα
-          αιχμής, ευκαιρίες δικτύωσης με ομοϊδεάτες επαγγελματίες και πρόσβαση
-          σε πολύτιμους εκπαιδευτικούς πόρους.
-        </p>
+        <h1>
+          Empowering the future through innovation. Join IEEE Student Branch
+          today!
+        </h1>
         <div className="button-container">
           <a href="#about-us">Μάθε Περισσότερα</a>
         </div>
