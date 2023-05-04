@@ -73,7 +73,7 @@ nav span {
     right: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 1rem;
-    z-index: 3;
+    z-index: 10;
     transition: all 1s ease;
     box-sizing: border-box;
   }
