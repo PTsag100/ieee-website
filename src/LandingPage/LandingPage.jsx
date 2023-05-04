@@ -11,7 +11,7 @@ function LandingPage() {
         id="myVideo"
         preload="auto"
       >
-        <source src="/globetard.mp4" type="video/mp4"></source>
+        <source src="/glob4.mp4" type="video/mp4"></source>
       </video>
       <div className="blur"></div>
       <div className="landing-page-container">

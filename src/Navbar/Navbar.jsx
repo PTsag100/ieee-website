@@ -33,7 +33,7 @@ function Navbar({ setDisableScroll }) {
           About
         </a>
         <a
-          href="#membership"
+          href="https://www.ieee.org/membership/index.html"
           onClick={() => {
             setShowMobileMenu(false);
             setDisableScroll(false);

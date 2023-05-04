@@ -49,13 +49,12 @@
   opacity: 0.35;
 }
 .landing-page video {
-  width: 100%;
+  width: 150%;
   left: 0;
   top: 0;
   position: absolute;
   height: 100vh;
   object-fit: cover;
-  transform: rotate(-180deg);
 }
 /* .landing-page video {
   width: 140%;
@@ -124,153 +123,6 @@
 }
 .landing-page a:hover {
   background-color: rgba(0, 0, 0, 0.35);
-  color: white;
-  cursor: pointer;
-}
-@media screen and (max-width: 800px) {
-  .landing-page p {
-    width: 80%;
-  }
-  .button-container {
-    width: 80%;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .landing-page {
-    background-position: center;
-  }
-  .landing-page h1 {
-    text-align: center;
-  }
-  .ieee-logo {
-    margin-top: 10vh;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 1rem;
-  }
-  .landing-page p {
-    width: 100%;
-    text-align: center;
-  }
-  .button-container {
-    width: 100%;
-  }
-}
-
-/* .landing-page { */
-/* background: url("../../public/landing_page.png"); */
-/* background: url("https://standards.ieee.org/wp-content/uploads/2021/10/WSD-header.png"); */
-/* background-position: 70%; */
-/* background-repeat: no-repeat;
-  background-size: cover;
-  overflow-x: hidden;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  box-sizing: border-box;
-  padding: 0 3rem;
-  background: linear-gradient(90deg, #000d36, #145eff);
-  position: relative;
-  overflow-y: hidden;
-  z-index: 1; */
-
-/* -webkit-transform: scaleX(-1); */
-/* transform: scaleX(-1); */
-/* } */
-
-/* .landing-page h1 {
-  color: white;
-  padding: 1rem 0;
-}
-.landing-page-container {
-  z-index: 2;
-} */
-
-/* .landing-page video {
-  width: 200%;
-  top: -10%;
-  position: absolute;
-  height: 200vh;
-  object-fit: cover;
-  transform: rotate(135deg);
-} */
-/* .landing-page video {
-  width: 200%;
-  left: -20%;
-  top: -80%;
-  position: absolute;
-  height: 200vh;
-  object-fit: cover;
-  transform: rotate(-35deg);
-} */
-/* .landing-page video {
-  width: 140%;
-  position: absolute;
-  height: 100vh;
-  object-fit: cover;
-  left: 0;
-} */
-.landing-page .landing-page-container {
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  box-sizing: border-box;
-  text-align: start;
-  background-position: left;
-  padding: 0 1rem;
-  /* -webkit-transform: scaleX(-1);
-  transform: scaleX(-1); */
-  z-index: 10;
-}
-
-.landing-page-container img {
-  width: 45%;
-}
-.ieee-logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 100%;
-  /* background-color: red; */
-}
-.ieee-logo h1 {
-  font-size: 72px;
-  color: white;
-}
-
-.landing-page p {
-  color: white;
-  /* width: 50%; */
-  width: 100%;
-  max-width: 1100px;
-  padding: 1rem 0;
-  font-size: large;
-}
-.button-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.landing-page a {
-  background-color: white;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  border: none;
-  padding: 1rem;
-  border-radius: 50px;
-  margin-top: 1rem;
-  border: 1px solid white;
-}
-.landing-page a:hover {
-  background-color: rgba(0, 0, 0, 0.4);
   color: white;
   cursor: pointer;
 }
